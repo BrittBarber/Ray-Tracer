@@ -1,0 +1,8 @@
+﻿  raytracer.cpp
+C:\Users\Britt\OneDrive\Documents\School\Winter 2021\Graphics 2\assignments\BarberBrittaneyAssignment5\opengl-2021\src\raytracer.cpp(27,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Britt\OneDrive\Documents\School\Winter 2021\Graphics 2\assignments\BarberBrittaneyAssignment5\opengl-2021\src\raytracer.cpp(138,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Britt\OneDrive\Documents\School\Winter 2021\Graphics 2\assignments\BarberBrittaneyAssignment5\opengl-2021\src\raytracer.cpp(150,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Britt\OneDrive\Documents\School\Winter 2021\Graphics 2\assignments\BarberBrittaneyAssignment5\opengl-2021\src\raytracer.cpp(218,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Britt\OneDrive\Documents\School\Winter 2021\Graphics 2\assignments\BarberBrittaneyAssignment5\opengl-2021\src\raytracer.cpp(275,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Britt\OneDrive\Documents\School\Winter 2021\Graphics 2\assignments\BarberBrittaneyAssignment5\opengl-2021\src\raytracer.cpp(376,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  opengl.vcxproj -> C:\Users\Britt\OneDrive\Documents\School\Winter 2021\Graphics 2\assignments\BarberBrittaneyAssignment5\opengl-2021\build\opengl.exe
