@@ -1,0 +1,142 @@
+{
+  "camera": {
+    "field": 60,
+    "background": [1, 1, 1]
+  },
+
+  "objects": [
+    {
+      "type": "mesh",
+      "triangles": [
+        [
+          [ -0.5, 1.0, -2.1 ],
+          [ -1.0, -0.7, -2.1 ],
+          [ -0.5, -0.7, -1.6 ]
+        ],
+        [
+          [ -0.5, 1.0, -2.1 ],
+          [ -0.5, -0.7, -1.6 ],
+          [ -0.3, -0.7, -2.1 ]
+        ],
+        [
+          [ -0.5, 1.0, -2.1 ],
+          [ -0.5, -0.7, -2.6 ],
+          [ -1.0, -0.7, -2.1 ]
+        ],
+        [
+          [ -0.5, 1.0, -2.1 ],
+          [ -0.3, -0.7, -2.1 ],
+          [ -0.5, -0.7, -2.6 ]
+        ],
+        [
+          [ -0.5, -0.7, -1.6 ],
+          [ -1.0, -0.7, -2.1 ],
+          [ -0.5, -0.7, -2.6 ]
+        ],
+        [
+          [ -0.5, -0.7, -1.6 ],
+          [ -0.5, -0.7, -2.6 ],
+          [ -0.3, -0.7, -2.1 ]
+        ]
+      ],
+      "material": {
+        "ambient": [ 0.3, 0.0, 0.4 ],
+        "diffuse": [ 0.3, 0.0, 0.4 ],
+        "specular": [ 0.727811, 0.626959, 0.626959 ],
+        "shininess": 76.8,
+        "transmissive": [ 0.5, 0.5, 0.5 ],
+        "refraction": 1.5,
+        "reflective": [ 0.6, 0.6, 0.6 ]
+      }
+    },
+    {
+      "type": "sphere",
+      "radius": 0.3,
+      "position": [ 0.5, 0, -2.0 ],
+      "material": {
+        "ambient": [ 0.3, 0.0, 0.4 ],
+        "diffuse": [ 0.3, 0.0, 0.4 ],
+        "specular": [ 0.727811, 0.626959, 0.626959 ],
+        "shininess": 76.8,
+        "transmissive": [ 0.5, 0.5, 0.5 ],
+        "refraction": 1.5,
+        "reflective": [ 0.6, 0.6, 0.6 ]
+      }
+    },
+    {
+      "type": "sphere",
+      "radius": 0.15,
+      "position": [ 0.5, -0.6, -2.0 ],
+      "material": {
+        "ambient": [ 0.3, 0.0, 0.4 ],
+        "diffuse": [ 0.3, 0.0, 0.4 ],
+        "specular": [ 0.727811, 0.626959, 0.626959 ],
+        "shininess": 76.8,
+        "transmissive": [ 0.5, 0.5, 0.5 ],
+        "refraction": 1.5,
+        "reflective": [ 0.6, 0.6, 0.6 ]
+      }
+    },
+    {
+      "type": "sphere",
+      "radius": 0.08,
+      "position": [ -0.3, 0.4, -2.0 ],
+      "material": {
+        "ambient": [ 0.3, 0.0, 0.4 ],
+        "diffuse": [ 0.3, 0.0, 0.4 ],
+        "specular": [ 0.727811, 0.626959, 0.626959 ],
+        "shininess": 76.8,
+        "transmissive": [ 0.5, 0.5, 0.5 ],
+        "refraction": 1.5,
+        "reflective": [ 0.6, 0.6, 0.6 ]
+      }
+    },
+    {
+      "type": "sphere",
+      "radius": 0.03,
+      "position": [ 0.1, 0.8, -2.0 ],
+      "material": {
+        "ambient": [ 0.3, 0.0, 0.4 ],
+        "diffuse": [ 0.3, 0.0, 0.4 ],
+        "specular": [ 0.727811, 0.626959, 0.626959 ],
+        "shininess": 150.0,
+        "transmissive": [ 0.5, 0.5, 0.5 ],
+        "refraction": 1.5,
+        "reflective": [ 0.6, 0.6, 0.6 ]
+      }
+    },
+    {
+      "type": "plane",
+      "position": [ 0, -0.9, -4.8 ],
+      "normal": [ 0, 1, 0.4 ],
+      "material": {
+        "ambient": [ 0.4, 0.4, 0.4 ],
+        "specular": [ 0.5, 0.5, 0.5 ],
+        "shininess": 1,
+        "reflective": [ 1, 1, 1 ]
+      }
+    }
+  ],
+  
+  "lights": [
+    {
+      "type":  "ambient",
+      "color": [1, 1, 1]
+    },
+    {
+      "type":      "directional",
+      "color":     [0.0, 0.0, 0.8],
+      "direction": [-1, -1, -0.1]
+    },
+    {
+      "type":      "directional",
+      "color":     [0.4, 0.4, 0.4],
+      "direction": [-0.2, 0, -1]
+    },
+    {
+      "type":      "directional",
+      "color":     [1, 1, 1],
+      "direction": [1, -0.6, -0.1]
+    }
+  ]
+}
