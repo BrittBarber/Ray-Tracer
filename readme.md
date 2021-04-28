@@ -4,6 +4,8 @@ On all platforms: the code must be executed from the src directory. All files op
 
 You can edit GLSL files in any text editor, but major source code editors like Visual Studio Code have GLSL modes available, with context-sensitive editing.
 
+#### Program specific information is provided in the wiki pages. 
+
 ## Windows (Visual Studio)
 
 Open the solution `opengl.sln` in Visual Studio. Build and run.
@@ -44,6 +46,3 @@ apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev libglew-dev
 Also, you must either install the `clang` package, or change `CC` in the Makefile to `g++`.
 
 On my system `-DEXPERIMENTAL` needs to be added to `CFLAGS` to allow glew to expose "modern" OpenGL features. This may not be required on your system../
-
-
-#### Prgram specific information is provided in the wiki pages. 
